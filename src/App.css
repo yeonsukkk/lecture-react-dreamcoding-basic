@@ -1,0 +1,27 @@
+.profile {
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  box-shadow: 7px 5px 23px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  margin: 1rem;
+  position: relative;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.bedge {
+  position: absolute;
+  background-color: aquamarine;
+  padding: 0.2em 0.5em;
+  top: 8%;
+  right: 17%;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  z-index: 10;
+}

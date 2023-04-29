@@ -1,0 +1,30 @@
+#root > div {
+  margin: 20px auto;
+  width: 200px;
+  height: 150px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#root > div .counter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.counter span {
+  font-size: 2rem;
+}
+
+.counter button {
+  width: 33.33333%;
+  margin-top: 10px;
+  background-color: orange;
+  border: 1px solid grey;
+}
