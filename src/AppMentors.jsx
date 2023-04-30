@@ -38,7 +38,6 @@ export default function AppMentors() {
             if (item.name === prev) {
               current = prompt(`멘토의 이름을 무엇으로 바꿀까요?`);
               item.name = current;
-              return person.mentors;
             }
           });
           setPerson((prev) => ({
