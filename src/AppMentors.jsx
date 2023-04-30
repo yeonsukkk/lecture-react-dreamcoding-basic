@@ -39,6 +39,7 @@ export default function AppMentors() {
               current = prompt(`멘토의 이름을 무엇으로 바꿀까요?`);
               item.name = current;
             }
+            return item;
           });
           setPerson((prev) => ({
             ...prev,
@@ -54,6 +55,12 @@ export default function AppMentors() {
       >
         멘토의 이름을 바꾸기
       </button>
+      {/* 
+        멘토 추가하기 : 새로운 이름과 타이틀을 입력받아서 추가
+        멘토 삭제하기 : 버튼 클릭 시 멘토의 이름을 입력 받아서 멘토 삭제
+      */}
+      <button type='button'>멘토 추가하기</button>
+      <button type='button'>멘토 삭제하기</button>
     </div>
   );
 }
