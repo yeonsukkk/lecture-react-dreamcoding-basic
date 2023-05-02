@@ -35,9 +35,9 @@ export default function AppMentors() {
       alert('제대로 입력되지 않았습니다.\n다시 입력해주세요.');
       return;
     } else {
-      let title = prompt('추가할 멘토의 직업은 무엇인가요?');
+      let title = prompt('추가할 멘토의 직함은 무엇인가요?');
       if (title === '') {
-        // 멘토의 직업이 작성되지 않았을 경우
+        // 멘토의 직함이 작성되지 않았을 경우
         alert('추가할 멘토의 이름을 작성해주세요');
         title = prompt('추가할 멘토의 직업은 무엇인가요?');
       }
@@ -48,8 +48,9 @@ export default function AppMentors() {
       }));
     }
   };
+
+  // 멘토 삭제
   const handleDelete = () => {
-    // 멘토 삭제
     const name = prompt('삭제할 멘토의 이름은 무엇인가요?');
     if (name === '') {
       alert('삭제할 멘토의 이름을 작성해주세요.');
