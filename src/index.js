@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import AppMentors from './AppMentors';
+import AppMentorsReducer from './AppMentorsReducer';
+// import AppMentors from './AppMentors';
 // import AppMentor from './AppMentor';
 // import AppXY from './AppXY';
 // import AppProducnts from './AppProducts';
@@ -13,7 +14,7 @@ import AppMentors from './AppMentors';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppMentors />
+    <AppMentorsReducer />
   </React.StrictMode>
 );
 
